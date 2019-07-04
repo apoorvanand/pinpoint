@@ -101,7 +101,7 @@
 
         <!-- jdk 6 compatibility version -->
         <fastxml.jackson-jdk6.version>2.6.6</fastxml.jackson-jdk6.version>
-        <fastxml.jackson.version>2.9.7</fastxml.jackson.version>
+        <fastxml.jackson.version>2.9.9.1</fastxml.jackson.version>
 
         <httpcomponents.version>4.5.6</httpcomponents.version>
         <httpcomponents-core.version>4.4.10</httpcomponents-core.version>
@@ -448,7 +448,7 @@
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
-                <version>5.1.45</version>
+                <version>8.0.13</version>
             </dependency>
 
             <dependency>
@@ -887,7 +887,7 @@
                 <version>1.6.0</version>
                 <configuration>
                     <options>sub, boss, newcap, loopfunc</options>
-                    <globals></globals>
+                    <globals/>
                     <directories>
                         <directory>src/main/webapp</directory>
                     </directories>
