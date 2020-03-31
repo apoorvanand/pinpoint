@@ -259,7 +259,7 @@
         <dependency>
             <groupId>commons-codec</groupId>
             <artifactId>commons-codec</artifactId>
-            <version>1.11</version>
+            <version>1.13</version>
         </dependency>
 
         <!-- Test dependencies -->
@@ -373,10 +373,8 @@
                                         <exclude name="v2/node_modules/**"/>
                                     </fileset>
                                 </copy>
-                                <copy file="${basedir}/src/Gruntfile.js" tofile="${basedir}/target/Gruntfile.js"
-                                      failonerror="true" verbose="true"/>
-                                <copy file="${basedir}/src/package.json" tofile="${basedir}/target/package.json"
-                                      failonerror="true" verbose="true"/>
+                                <copy file="${basedir}/src/Gruntfile.js" tofile="${basedir}/target/Gruntfile.js" failonerror="true" verbose="true"/>
+                                <copy file="${basedir}/src/package.json" tofile="${basedir}/target/package.json" failonerror="true" verbose="true"/>
                             </target>
                         </configuration>
                     </execution>
