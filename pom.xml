@@ -97,15 +97,15 @@
 
         <!-- library -->
         <slf4j.version>1.7.21</slf4j.version>
-        <metrics.version>3.1.2</metrics.version>
+        <metrics.version>4.0.0</metrics.version>
 
         <!-- jdk 6 compatibility version -->
         <fastxml.jackson-jdk6.version>2.6.6</fastxml.jackson-jdk6.version>
-        <fastxml.jackson.version>2.9.7</fastxml.jackson.version>
+        <fastxml.jackson.version>2.9.10.6</fastxml.jackson.version>
 
         <httpcomponents.version>4.5.6</httpcomponents.version>
         <httpcomponents-core.version>4.4.10</httpcomponents-core.version>
-        <spring.version>4.3.20.RELEASE</spring.version>
+        <spring.version>4.3.29.RELEASE</spring.version>
         <spring.batch.version>3.0.9.RELEASE</spring.batch.version>
         <spring.security.version>4.2.8.RELEASE</spring.security.version>
         <asm.version>7.0</asm.version>
@@ -887,7 +887,7 @@
                 <version>1.6.0</version>
                 <configuration>
                     <options>sub, boss, newcap, loopfunc</options>
-                    <globals></globals>
+                    <globals/>
                     <directories>
                         <directory>src/main/webapp</directory>
                     </directories>
