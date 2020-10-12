@@ -438,7 +438,7 @@
             <dependency>
                 <groupId>org.mybatis</groupId>
                 <artifactId>mybatis</artifactId>
-                <version>3.2.7</version>
+                <version>3.5.6</version>
             </dependency>
             <dependency>
                 <groupId>org.mybatis</groupId>
@@ -887,7 +887,7 @@
                 <version>1.6.0</version>
                 <configuration>
                     <options>sub, boss, newcap, loopfunc</options>
-                    <globals></globals>
+                    <globals/>
                     <directories>
                         <directory>src/main/webapp</directory>
                     </directories>
